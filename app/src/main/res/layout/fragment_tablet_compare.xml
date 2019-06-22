@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_Scrollview1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp">
+
+                <RelativeLayout
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_circle"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/cricle"
+                        android:backgroundTint="#fc7a10">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_add" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_below="@+id/relative_circle"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerInParent="true"
+                        android:textSize="16sp"
+                        android:textColor="#fa7304"
+                        android:layout_height="wrap_content"
+                        android:text="Add a Device" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp" >
+
+                <RelativeLayout
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_circle2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/cricle"
+                        android:backgroundTint="#fc7a10">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_add" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_below="@+id/relative_circle2"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerInParent="true"
+                        android:textSize="16sp"
+                        android:textColor="#fa7304"
+                        android:layout_height="wrap_content"
+                        android:text="Add a Device" />
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp" >
+
+                <RelativeLayout
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_circle3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/cricle"
+                        android:backgroundTint="#fc7a10">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_add" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_below="@+id/relative_circle3"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerInParent="true"
+                        android:textSize="16sp"
+                        android:textColor="#fa7304"
+                        android:layout_height="wrap_content"
+                        android:text="Add a Device" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp" >
+
+                <RelativeLayout
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_circle4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/cricle"
+                        android:backgroundTint="#fc7a10">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_add" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_below="@+id/relative_circle4"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerInParent="true"
+                        android:textSize="16sp"
+                        android:textColor="#fa7304"
+                        android:layout_height="wrap_content"
+                        android:text="Add a Device" />
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@+id/horizontal_Scrollview1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="compare now"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

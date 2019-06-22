@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_wallpaper">
+
+    <TextView
+        android:id="@+id/text_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Sign In"
+        android:textColor="#fff"
+        android:textSize="35sp" />
+
+
+    <!--<com.facebook.login.widget.LoginButton
+        android:id="@+id/facebook_signin"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/text_signin"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="15dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/facebook_signin"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginTop="20dp" />-->
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_signin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="We will never post without your permission"
+        android:textColor="#d1cccc" />
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Or Sign Up with your email"
+        android:textColor="#fff" />
+
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:drawableLeft="@drawable/ic_person"
+            android:gravity="center"
+            android:hint="Name"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+
+        <EditText
+            android:layout_below="@+id/Name"
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:drawableLeft="@drawable/ic_mail"
+            android:gravity="center"
+            android:hint="Email Address"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/Email"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:drawableLeft="@drawable/ic_lock"
+            android:gravity="center"
+            android:hint="Password"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/Sign_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/relative_layout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#f76206"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textAllCaps="false" />
+</RelativeLayout>

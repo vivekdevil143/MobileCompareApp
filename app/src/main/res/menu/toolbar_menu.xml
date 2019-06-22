@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/nav_notifications"
+        android:icon="@drawable/ic_notifications_white"
+        app:showAsAction="ifRoom"
+        android:title="notification" />
+
+    <item
+        android:id="@+id/nav_compare"
+        android:icon="@drawable/ic_weight_compare"
+        app:showAsAction="ifRoom"
+        android:title="Compare" />
+
+    <item
+        android:id="@+id/nav_favourite"
+        android:icon="@drawable/ic_favorite_white"
+        app:showAsAction="ifRoom"
+        android:title="favourite" />
+
+</menu>
